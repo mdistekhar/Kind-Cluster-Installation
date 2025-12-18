@@ -113,7 +113,7 @@ nodes:
 
 ```bash
 
-kind create cluster --config kind-config.yaml --name tws-kind-cluster
+kind create cluster --name=<cluster name> --config=config.yml
 ```
 ✅Step3:- Verify the cluster:
 

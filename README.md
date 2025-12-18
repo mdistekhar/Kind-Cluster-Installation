@@ -2,9 +2,11 @@
 
 ## 1. Installing KIND and kubectl
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-✅Step1:- vim install_kind.sh
 
-Then Paste the Script and save.
+✅Step1:- Create a folder.
+
+               vim install_kind.sh
+
 
 This is the Script 👇
 #!/bin/bash

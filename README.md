@@ -9,6 +9,7 @@
 
 
 This is the Script 👇
+-----------------------------------------------------------------------------------------------------
 #!/bin/bash
 
 [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
@@ -28,10 +29,9 @@ rm -f kubectl
 rm -rf kind
 
 echo "kind & kubectl installation complete."
-
+--------------------------------------------------------------------------------------------------------
 
 This is the Example of Script 👇
-
 
 <img width="756" height="481" alt="image" src="https://github.com/user-attachments/assets/b221a539-fa9a-42cf-80e6-23feb50a0e9d" />
 

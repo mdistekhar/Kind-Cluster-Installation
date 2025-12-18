@@ -49,11 +49,20 @@ This is the Example of Script 👇
 
 ✅Step1:- First Update the system
 
-               chmo sudo apt-get update
+               sudo apt-get update
 
-✅Step3:- After that, Install Docker.
+✅Step2:- After that, Install Docker.
 
                 sudo agt-get install docker.io
+
+✅Step3:- Give permission to docker.
+
+                sudo usermod -aG docker $USER && newgrp docker
+
+✅Step3:- Verify Docker Installation.
+
+                docker ps               
+                
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Setting Up the KIND Cluster

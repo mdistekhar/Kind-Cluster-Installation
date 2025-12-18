@@ -111,7 +111,7 @@ kubectl get nodes
 kubectl cluster-info
 ```
 ## 4. Accessing the Cluster
-Use kubectl to interact with the cluster:
+✅Step1:- Use kubectl to interact with the cluster:
 ```bash
 
 kubectl cluster-info
@@ -119,13 +119,13 @@ kubectl cluster-info
 
 
 ## 5. Setting Up the Kubernetes Dashboard
-Deploy the Dashboard
+✅Step1:- Deploy the Dashboard
 Apply the Kubernetes Dashboard manifest:
 ```bash
 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
 ```
-Create an Admin User
+✅Step2:- Create an Admin User
 Create a dashboard-admin-user.yml file with the following content:
 
 ```yaml

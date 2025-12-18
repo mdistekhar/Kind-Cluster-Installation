@@ -73,7 +73,7 @@ This is the Example of Script 👇
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Setting Up the KIND Cluster
-✅Step1:-Create a File :
+✅Step1:- Create a File :
 
           kind-config.yaml 
 
@@ -89,13 +89,13 @@ nodes:
   - role: worker
     image: kindest/node:v1.33.1
 ```
-Create the cluster using the configuration file:
+✅Step2:- Create the cluster using the configuration file:
 
 ```bash
 
 kind create cluster --config kind-config.yaml --name tws-kind-cluster
 ```
-Verify the cluster:
+✅Step3:- Verify the cluster:
 
 ```bash
 

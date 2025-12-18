@@ -59,9 +59,16 @@ This is the Example of Script 👇
 
                 sudo usermod -aG docker $USER && newgrp docker
 
-✅Step3:- Verify Docker Installation.
+✅Step4:- Verify Docker Installation.
 
-                docker ps               
+                docker ps          
+
+✅Step5:- Verify Docker, Kubectl and Kind .
+
+                docker --version
+                kind --version
+                kubectl version
+                
                 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

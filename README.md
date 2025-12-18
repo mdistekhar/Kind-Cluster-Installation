@@ -2,6 +2,10 @@
 
 ## 1. Installing KIND and kubectl
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+✅Step:- vim install_kind.sh
+Then Paste the Script and save.
+
+This is the Example of Script 👇
 #!/bin/bash
 
 [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64

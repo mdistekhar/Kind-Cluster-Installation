@@ -3,7 +3,7 @@
 ## 1. Installing KIND and kubectl
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-✅Step1:- Create a folder.
+✅Step1:- Create a File.
 
                vim install_kind.sh
 
@@ -73,7 +73,9 @@ This is the Example of Script 👇
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Setting Up the KIND Cluster
-Create a kind-config.yaml file:
+✅Step1:-Create a File :
+
+          kind-config.yaml 
 
 ```yaml
 

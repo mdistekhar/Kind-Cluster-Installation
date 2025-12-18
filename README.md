@@ -21,6 +21,8 @@ rm -f kubectl
 rm -rf kind
 
 echo "kind & kubectl installation complete."
+
+
 This is the Example of Script 👇
 
 

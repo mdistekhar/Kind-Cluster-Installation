@@ -149,20 +149,20 @@ subjects:
   name: admin-user
   namespace: kubernetes-dashboard
 ```
-Apply the configuration:
+✅Step3:- Apply the configuration:
 
 ```bash
 
 kubectl apply -f dashboard-admin-user.yml
 ```
-Get the Access Token
+✅Step4:- Get the Access Token
 Retrieve the token for the admin-user:
 
 ```bash
 
 kubectl -n kubernetes-dashboard create token admin-user
 ```
-Copy the token for use in the Dashboard login.
+✅Step5:- Copy the token for use in the Dashboard login.
 
 Access the Dashboard
 Start the Dashboard using kubectl proxy:
@@ -171,7 +171,7 @@ Start the Dashboard using kubectl proxy:
 
 kubectl proxy
 ```
-Open the Dashboard in your browser:
+✅Step6:- Open the Dashboard in your browser:
 
 ```bash
 
@@ -180,7 +180,7 @@ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
 Use the token from the previous step to log in.
 
 ## 6. Deleting the Cluster
-Delete the KIND cluster:
+✅Step1:- Delete the KIND cluster:
 ```bash
 
 kind delete cluster --name my-kind-cluster

@@ -22,6 +22,9 @@ rm -rf kind
 
 echo "kind & kubectl installation complete."
 
+<img width="756" height="481" alt="image" src="https://github.com/user-attachments/assets/b221a539-fa9a-42cf-80e6-23feb50a0e9d" />
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 2. Setting Up the KIND Cluster
 Create a kind-config.yaml file:

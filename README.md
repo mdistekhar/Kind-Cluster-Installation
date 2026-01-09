@@ -5,7 +5,7 @@
 
 ✅Step1:- Create a File.
 
-             vim install_kind.sh
+         vim install_kind.sh
 
 
 This is the Script 👇

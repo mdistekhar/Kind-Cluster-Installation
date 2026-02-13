@@ -1,14 +1,15 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: nginx-pv
+  name: local-pv
   labels:
-    env: dev
+    app: local
 spec:
-  storageClassName: standard
   capacity:
     storage: 1Gi
   accessModes:
     - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: local-storage
   hostPath:
-    path: "/home/ubuntu/data"
+    path: /mnt/data
